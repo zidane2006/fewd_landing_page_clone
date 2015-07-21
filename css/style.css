@@ -5,6 +5,9 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  list-style: none;
+}
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -459,6 +462,7 @@ body {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 9999;
   border-bottom: 1px solid #DDD;
 }
 .top-navigation > .content {
@@ -548,4 +552,45 @@ body {
   background-color: #d9400e;
   border-color: #cf3d03;
   cursor: pointer;
+}
+
+/** Three Case Images */
+
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 10rem;
+}
+
+.cases .content {
+  margin-top: 7.875rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.cases .devices {
+  display: flex;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin-top: 2.5rem 0px 1.875rem;
+  text-align: center; /**code I added */
+  line-height: 0px; /**andy code*/
+}
+
+img {
+  margin-left: 4.7rem; /** code I personally added*/
 }
