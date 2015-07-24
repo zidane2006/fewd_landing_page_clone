@@ -471,16 +471,14 @@ body {
 
 .top-navigation .logo {
   height: 4.375rem;
-  margin-left: 5rem; /**added this myself, was told to remove but the logo went way to much to the left **/
-}
+ }
 
 .top-navigation .links {
   float: right;
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
-  margin-right: 7.7rem; /**added myself personally, wasn't told to do it, the links were wayy too much on the right**/
-}
+  }
 
 .top-navigation .links li {
   display: inline-block;
@@ -591,10 +589,6 @@ body {
   line-height: 0px; /**andy code*/
 }
 
-img {
-  margin-left: 13rem; /** code I personally added*/
-}
-
 
 /** Footer */
 
@@ -643,3 +637,55 @@ img {
   font-weight: 300;
   color: #838994;
 }
+
+/**
+ * Responsive Design
+ */
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+}
+
+/** willaim turner review */
+
+
+.devices > li {
+
+  width: 100px;
+}
+
+.image-container {
+
+  width: 30%;
+  margin: 0 auto;
+}
+
+.social .content {
+
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+
+.devices .image-container {
+  text-align: center;
+}
+
+.social .content .icons {
+  padding: 0;
+}
+
+/** ALWAYS REMEMBER, IF YOU WANT TO FOCUS ON A SECTION, PUT IN "BACKGROUND-COLOR" TO A COLORFUL STYLE,
+AS WELL AS "BORDER-STYLE" TO "SOLID", AS IT WILL BE EASIER FOR YOU TO WORK!!*/
